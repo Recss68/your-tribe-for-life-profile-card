@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --main-font: 'Poppins', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji';
+
+    --sky-100:#BFE7F9;
+    --indigo-600:#2E3EC9;
+    --indigo-800:#0A1C8F;
+    --magenta-500:#C13772;
+    --plum-700:#7B2B4E;
+    --teal-400:#7DAEB6;
+
+  /* Text colors */
+    --text-strong:#0D0F13;
+    --text-default:#1a1f29;
+    --text-muted:#5B6678;
+    --text-inverse:#FFFFFF;
+
+  /* Type scale (rem) */
+    --fs-xs:0.75rem;   /* 12px */
+    --fs-sm:0.875rem;  /* 14px */
+    --fs-base:1rem;    /* 16px */
+    --fs-md:1.125rem;  /* 18px */
+    --fs-lg:1.25rem;   /* 20px */
+    --fs-xl:1.5rem;    /* 24px */
+    --fs-2xl:2rem;     /* 32px */
+
+    --lh-tight:1.15;
+    --lh-base:1.5;
+
+    /* Spacing */
+    --space-2:0.5rem;
+    --space-3:0.75rem;
+    --space-4:1rem;
+    --space-6:1.5rem;
+    --space-8:2rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: url("../background.svg") center / cover no-repeat fixed;;
+    font-family: var(--main-font);
+}

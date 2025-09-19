@@ -1,0 +1,32 @@
+.profile-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.profile-info {
+    color: var(--text-strong);
+    padding: 5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    img {          
+        width: 15rem;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;          
+    }
+
+    a {
+        font-size: var(--fs-2xl);
+        color: var(--text-inverse);
+        text-decoration: noner;
+    }
+}
